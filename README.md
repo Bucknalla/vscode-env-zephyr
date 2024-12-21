@@ -55,7 +55,7 @@ Run the image in *VS Code Server* mode. Note that it mounts the local *workspace
 Linux/macOS:
 
 ```sh
-docker run --rm -it -p 8080:8080 -v "$(pwd)"/workspace:/workspace -w /workspace env-zephyr-espressif
+docker run --rm -it -p 8800:8800 -v "$(pwd)"/workspace:/workspace -w /workspace env-zephyr-espressif
 ```
 
 Windows (PowerShell):
